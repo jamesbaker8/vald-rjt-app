@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import re
 
-st.title("Jump Test Data Restructuring")
-st.write("Upload your Excel file with horizontal-format jump trial data. Row 8: headers, Row 9: trial labels.")
+st.title("Vald Hop Test Data Restructuring")
+st.write("Upload your exported Hop Test file to restructure the data ready for analysis in the Power BI dashboard")
 
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx"])
 
